@@ -1,14 +1,26 @@
 
- body{
-	 background: #f3f4f8;
- }
+ body{background: #f3f4f8;}
 
- .Hat{
-	 background: #fff;
- }
+@media (max-width:767px) {
+h1 {font-size: 25px !important;}
+}
 
- .justifyH1{text-align:justify;}
- img{margin:15px;
- /*border: 1px solid #999*/;}
+
+h1{font-size: 30px;}
+th,td{text-align: center;}
+
+img,h1{
+vertical-align:middle ;
+
+}
+
+.alig{
+vertical-align:top;
+
+}
+.ha{display: inline-block;
+;
+}
+
 
 /* div{border: 1px solid #999;}*/
